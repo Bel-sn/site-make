@@ -1,0 +1,236 @@
+
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #fff0f5; /* rosa claro */
+color: #333;
+
+}
+
+
+header {
+background-color: #f48fb1; /* rosa principal */
+padding: 20px;
+text-align: center;
+color: white;
+}
+
+
+header h1 {
+margin: 0;
+font-size: 2.2rem;
+}
+
+
+nav {
+margin-top: 10px;
+}
+
+
+nav a {
+color: white;
+margin: 0 10px;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+.hero {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+padding: 40px 20px;
+background-color: #fde4ec;
+}
+
+
+.hero-text {
+max-width: 400px;
+margin: 20px;
+}
+
+
+.hero-text h2 {
+color: #c2185b;
+font-size: 1.8rem;
+}
+
+
+.hero-text p {
+font-size: 1rem;
+line-height: 1.5;
+}
+
+
+.hero img {
+width: 280px;
+border-radius: 20px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+margin: 20px;
+}
+
+
+section {
+padding: 40px 20px;
+text-align: center;
+}
+
+
+section h2 {
+color: #c2185b;
+margin-bottom: 20px;
+}
+
+
+.services {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+
+
+.card {
+background-color: white;
+padding: 20px;
+width: 220px;
+border-radius: 15px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(194, 24, 91, 0.4);
+  background-color: #fde4ec;
+  display: block;
+}
+
+
+button {
+margin-top: 20px;
+padding: 10px 20px;
+background-color: #f06292;
+color: white;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+font-size: 1rem;
+}
+
+
+button:hover {
+background-color: #ec407a;
+}
+
+
+footer {
+background-color: #f48fb1;
+text-align: center;
+padding: 15px;
+color: white;
+}
+.servico-noiva {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.foto-noiva {
+  width: 180px;
+  border-radius: 15px;
+  
+}
+
+.descricao h3 {
+  color: #c2185b;
+  margin-bottom: 8px;
+}
+
+.descricao p {
+  margin: 0;
+  line-height: 1.5;
+}
+@media (max-width: 600px) {
+  .servico-noiva {
+    flex-direction: column;
+    text-align: center;
+ } 
+}
+.foto-noiva {
+  width: 180px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.foto-noiva:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(194, 24, 91, 0.4);
+}
+.servico-Festa {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.foto-Festa {
+  width: 180px;
+  border-radius: 15px;
+  
+}
+
+.descricao h3 {
+  color: #c2185b;
+  margin-bottom: 8px;
+}
+
+.descricao p {
+  margin: 0;
+  line-height: 1.5;
+}
+@media (max-width: 600px) {
+  .servico-Festa {
+    flex-direction: column;
+    text-align: center;
+ } 
+}
+.foto-Festa {
+  width: 180px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.foto-Festa:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(194, 24, 91, 0.4);
+   } 
+
+.servico-social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 700px;
+  margin: 20px auto;
+}
+.foto-social {
+  width: 180px;
+  border-radius: 15px;
+  
+}
+
+.descricao h3 {
+  color: #c2185b;
+  margin-bottom: 8px;
+}
+
+.descricao p {
+  margin: 0;
+  line-height: 1.5;
+}
+@media (max-width: 600px) {
+  .servico-social {
+    flex-direction: column;
+    text-align: center;
+ } 
+}
